@@ -1,0 +1,40 @@
+/*
+    Tulis selector CSS kamu di sini!
+
+    Quest 1:
+    1. nav → flex container, logo kiri dan nav-links di kanan
+    2. .logo → font besar + letter-spacing biar mirip design
+    3. .nav-links → flex, hilangkan bullet list-nya
+
+    Quest 2:
+    4. .hero → flex, teks di tengah layar, tinggi cukup besar
+    5. .hero → background gradient (putih → abu-abu), hint: linear-gradient
+    6. .hero-title → font super besar, huruf kapital
+
+    Quest 3:
+    7. .tentang → background putih, padding dalam
+    8. .tentang-content → flex, 2 kolom sejajar
+    9. .card → font tebal, line-height biar enak dibaca
+*/
+
+.navbar {
+    max-width: 100%;
+    height: 120px;
+    background-color: #dddddd;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-family: "VT323", monospace;
+}
+
+.logo {
+    font-size: 48px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+}
