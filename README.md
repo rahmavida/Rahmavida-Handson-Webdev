@@ -4,10 +4,10 @@ Slicing design dari Figma ke HTML, CSS, dan JavaScript.
 
 ## Identitas
 
-|          |           |
-| -------- | --------- |
-| **Nama** | Nama Kamu |
-| **NRP**  | 00000000  |
+|          |                          |
+| -------- | ------------------------ |
+| **Nama** | Rahmavida Novita Setiani |
+| **NRP**  | 5025251148               |
 
 ## Link Figma
 
