@@ -26,15 +26,66 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    font-family: "VT323", monospace;
+    font-family: 'Oswald', sans-serif;
 }
 
 .logo {
     font-size: 48px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .nav-links {
     display: flex;
     gap: 15px;
     font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Styling Quest 2: Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background: linear-gradient(to bottom, #ffffff, #888888);
+    text-align: center;
+    padding: 40px 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero-title {
+    font-size: 72px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero-description {
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Styling Quest 3: Section Tentang Kami */
+.tentang {
+    background-color: #ffffff;
+    padding: 60px 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.tentang h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.tentang-content {
+    display: flex;
+    gap: 40px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card {
+    flex: 1;
+    font-family: 'Oswald', sans-serif;
 }
